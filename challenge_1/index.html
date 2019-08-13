@@ -1,2 +1,47 @@
-
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    td {
+      text-align: center;
+      font-size: 100px;
+      width: 200px;
+      height: 200px;
+      border: 1px solid;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div class='game-board'>
+    <table id='game' align='center' width='600' height='600'>
+      <tbody>
+        <tr>
+          <td class='game-square' id='0'></td>
+          <td class='game-square' id='1'></td>
+          <td class='game-square' id='2'></td>
+        </tr>
+        <tr>
+          <td class='game-square' id='3'></td>
+          <td class='game-square' id='4'></td>
+          <td class='game-square' id='5'></td>
+        </tr>
+        <tr>
+          <td class='game-square' id='6'></td>
+          <td class='game-square' id='7'></td>
+          <td class='game-square' id='8'></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+  <button class='reset-board'>Reset Board</button>
+  <h2 class='winning-message'></h2>
+  <script src='./app.js'></script>
+</body>
+</html>
