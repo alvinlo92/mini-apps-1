@@ -1,2 +1,23 @@
-
-
+<!DOCTYPE html>
+<head>
+	<title>CSV Report Generator</title>
+	<style>
+		textarea {
+			resize: none;
+		}
+		body {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>CSV Report Generator</h1>
+	<form method="POST" action="/upload_json">
+		<div>
+			<textarea name='json_data' rows='50' cols='50'></textarea>
+			<br>
+			<input type='submit' value='submit'></button>
+		</div>
+	</form>
+</body>
+</html>
